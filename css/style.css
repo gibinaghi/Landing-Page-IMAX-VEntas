@@ -1,0 +1,189 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width:70%;
+    margin: 0 auto 0 auto;
+}
+header{
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height:450px;
+    position: relative;
+}
+.menu{
+    margin: 0px auto 10px auto;
+    padding-top: 20px;
+    height: 50px;
+    width: 95%;
+}
+.link-menu{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+}
+#logo{
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    display: inline-block;
+}
+h1{
+    position: absolute;
+    bottom: 45px;
+    left:20px;
+    margin-bottom: 45px;
+    line-height: 50px;
+}
+h2{
+    position: absolute;
+    bottom: 20px;
+    left:20px;
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+section{
+    margin: auto;
+    display: table;
+    border-spacing: 10px;
+}
+article{
+    display: table-cell;
+    margin: 20px;
+}
+.tipo1{
+    text-align: center;
+    background-color: white;
+}
+.icono{
+    margin-top: 10px;
+    width:60px;
+    height:60px;
+}
+.anuncio{
+    text-align: left;
+    background-color: rgb(228, 227, 227);
+}
+.titulo1 {
+    padding: 5px;
+    font-size: 25px;  
+}
+.anuncio p{
+    padding: 5px;
+    line-height: 30px;
+}
+.imgAnuncio{
+    width: 100%;
+}
+.mayuscula{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.texto{
+    text-align: center;
+    font-size: 0.7em;
+    padding:10px;
+    line-height: 20px;
+}
+.precio{
+    color: rgb(10, 173, 10);
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.equipamiento{
+    display: table;
+    border-spacing: 20px;
+}
+.tabla{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.item1::before{
+    content: url("../iconos/icono_wc.svg");
+    width: 25px;
+}
+.item2::before{
+    content: url("../iconos/icono_estacionamiento.svg");
+    width: 25px;
+}
+.item3::before{
+    content: url("../iconos/icono_dormitorio.svg");
+    width: 25px;
+}
+button {
+    background-color: rgb(10, 173, 10);
+    color: white;
+    width: 150px;
+    height:40px;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    margin: 10px 5px 10px 5px; 
+}
+.boton{
+    display: block;
+    text-align: center;
+    background-color: orange;
+    width: 150px;
+    margin: 10px 20px 5px 10px;
+    height:20px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.propiedad{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-image: url("../img/encuentra.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:300px;
+    position:relative;
+    color: white;
+    margin-top: 70px;
+}
+footer p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+footer h4{
+    padding-top: 40px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+#menufooter{
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+}
+.derecha{
+    position: absolute;
+    top:40px;
+    right:40px;
+    float:right;
+    height: 100%;
+}
+.izquierda{
+    float:left;
+    height: 100%;
+}
+.menu-derechos {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
